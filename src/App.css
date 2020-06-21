@@ -146,7 +146,8 @@ body{
 
   .navbar{
     display: flex;
-    margin: 70px 150px;
+    margin-left: 150px;
+    margin-right: 150px;
     grid-row: 1/2;
   }
   .navbar-logo{
@@ -173,7 +174,11 @@ body{
 
   .grid{
     display: grid;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: minmax(20px, 150px) 3fr;
+  }
+
+  #home{
+    margin-bottom: 50px;
   }
 
   .accentText{

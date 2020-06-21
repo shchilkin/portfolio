@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from "./Logo";
 import './App.css';
+import Arrow from "./Arrow";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
               <h2 className="display-2">
                   Web development & UI/UX Design
               </h2>
+              <div style={{height:'90px'}}>
+                <Arrow />
+              </div>
           </section>
           <section id="work" className="container">
               <h3 className="display-3">My <span className="accentText">work</span></h3>
@@ -33,10 +37,10 @@ function App() {
                   consequat. Proin lacus lacus, blandit a nisl ut, maximus vestibulum libero.
               </p>
           </section>
-          <section id="skills" className="container">
+          <section style={{height: '100vh'}} id="skills" className="container">
               <h3 className="display-3 text-right">My <span className="accentText">skills</span></h3>
           </section>
-          <section id="projects" className="container">
+          <section style={{height: '100vh'}} id="projects" className="container">
               <h3 className="display-3">My <span className="accentText">projects</span></h3>
           </section>
       </div>
